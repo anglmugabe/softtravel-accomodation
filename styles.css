@@ -1,61 +1,56 @@
 :root {
   --branding-color: #f2912b;
-  --heading-font-family: "Fira Sans",
-    sans-serif;
+  --heading-font-family: "Fira Sans", sans-serif;
 }
 
-.hero {
+body {
   text-align: right;
   width: 100%;
   height: 100vh;
   background: linear-gradient(90deg, #f0ddc6 50%, var(--branding-color) 50%);
+  font-family: var(--heading-font-family);
+  /* Ensuring consistent font usage */
+}
+
+h1,
+h2,
+p,
+.hero p,
+footer {
+  color: #f0ddc6;
+  /* Consistent text color for better readability */
 }
 
 h1 {
-  font-family: var(--heading-font-family);
   font-size: 24px;
   font-weight: bolder;
-  color: #f0ddc6;
   line-height: 1.5;
 }
 
 h2 {
   font-size: 64px;
+  /* Adjusted for consistency */
 }
 
-p {
+p,
+.hero p {
   font-size: 16px;
   line-height: 30px;
 }
 
 .hero p {
-  font-family: "Fira Sans", sans-serif;
   font-size: 32px;
   font-weight: 400;
-  line-height: 1.5;
   margin: 0;
-  color: #f0ddc6;
 }
 
-.btn-branding {
-  text-align: center;
-  background: #F571B6;
-  border-radius: 36px;
-  border-width: 2px;
-  border-color: #F55301;
-  color: #F55301;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
-}
-
+.btn-branding,
 .btn-branding-outline {
   text-align: center;
   background: #F571B6;
   border-radius: 36px;
-  border-width: 2px;
-  border-color: #F55301;
+  border: 2px solid #F55301;
+  /* Combined border properties */
   color: #F55301;
   font-weight: 700;
   font-size: 18px;
@@ -67,20 +62,18 @@ p {
   padding: 0 30px;
 }
 
-
-
 footer {
-  color: #F0DDC6;
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 400;
-  font-size: 15px;
   background-color: #F470B2;
-  justify-content: space-evenly;
   text-align: center;
   padding: 120px 60px;
 }
 
 @media (max-width: 900px) {
+  body {
+    text-align: center;
+    /* Center text on smaller screens */
+  }
+
   h1 {
     font-size: 60px;
   }
