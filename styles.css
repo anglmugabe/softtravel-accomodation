@@ -9,7 +9,6 @@ body {
   height: 100vh;
   background: linear-gradient(90deg, #f0ddc6 50%, var(--branding-color) 50%);
   font-family: var(--heading-font-family);
-
 }
 
 h1,
@@ -17,7 +16,7 @@ h2,
 p,
 .hero p,
 footer {
-  color: #f0ddc6;
+  color: #F55301;
 
 }
 
@@ -63,6 +62,10 @@ p,
 
 .project-description {
   padding: 0 30px;
+}
+
+.about-section {
+  color: white;
 }
 
 footer {
