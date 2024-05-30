@@ -6,12 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
-            href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
             rel="stylesheet">
+        <link rel="stylesheet" href="styles.css" />
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>
@@ -22,30 +22,28 @@
 
     <body>
         <div class="hero">
-            <div class="container">
+            <div class="container text-center">
                 <div class="row mb-5">
                     <div class="col-6"></div>
                     <div class="col-6">
-                        <h1> ⭐ Let's Discover your Beach Bliss</h1>
+                        <h1 class="p-2">⭐ Let's Discover your Beach Bliss</h1>
                         <div>
-                            <p class=" mb-3">⭐ Your guide to help you explore the best places and find things to do in
+                            <p class="mb-3">⭐ Your guide to help you explore the best places and find things to do in
                                 Mozambique
                             </p>
-                        </div>
-                        <div>
-                            <a href="#" class=" btn btn-branding"> Explore </a>
+                            <div>
+                                <a href="#" class="btn btn-branding" role="button"
+                                    aria-label="Explore Mozambique">Explore</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <p class="text-center m-5"> The vibrant city of Maputo stands as Mozambique’s capital,
-            offering visitors a
-            chance to immerse
-            themselves
-            in the
-            country’s rich cultural heritage, stunning architecture, complex history, and interesting
-            customs. </p>
+        <p class="text-center m-5">The vibrant city of Maputo stands as Mozambique’s capital,
+            offering visitors a chance to immerse themselves in the country’s rich cultural heritage, stunning
+            architecture,
+            complex history, and interesting customs.</p>
         <div class="container">
             <div class="row mb-5">
                 <div class="col d-none d-lg-block">
@@ -53,57 +51,62 @@
                 </div>
                 <div class="col">
                     <div class="project-description">
-                        <h2 class="mb-5"> The Land Of Seafood And Spices: Maputo </h2>
-                        <p class="mb-5 texted-muted"> Pretty luxury lodges are set right on the beach, while the town
-                            offers
-                            a
-                            smorgasbord of
-                            local restaurants serving delicious local meals, as well as the nearby Bazaruto Marine Park
+                        <h2 class="mb-5">The Land Of Seafood And Spices: Maputo</h2>
+                        <p class="mb-5 text-muted">Pretty luxury lodges are set right on the beach, while the town
+                            offers a
+                            smorgasbord of local restaurants serving delicious local meals, as well as the nearby
+                            Bazaruto
+                            Marine Park
                         </p>
-
-                        <a href="#" class="btn btn-branding-outline"> Learn More</a>
+                        <a href="#" class="btn btn-branding-outline" role="button"
+                            aria-label="Learn more about Maputo">Learn
+                            More</a>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row mb-5">
-            <div class="col">
-                <div class="project-description">
-                    <h2 class="mb-5"> Weather Application</h2>
-                    <p class="mb-5 texted-muted"> Pretty luxury lodges are set right on the beach, while the town
-                        offers
-                        a
-                        smorgasbord of
-                        local restaurants serving delicious local meals, as well as the nearby Bazaruto Marine Park
-                    </p>
+
+            <div class="row mb-5">
+                <div class="col-lg-6">
+                    <div class="project-description">
+                        <h2 class="mb-5">Weather Application</h2>
+                        <p class="mb-5 text-muted">Pretty luxury lodges are set right on the beach, while the town
+                            offers a
+                            smorgasbord of local restaurants serving delicious local meals, as well as the nearby
+                            Bazaruto Marine
+                            Park.</p>
+                        <a href="#" class="btn btn-branding-outline" role="button"
+                            aria-label="Learn more about the Weather Application">Learn More</a>
+                    </div>
                 </div>
-                <a href="#" class="btn btn-branding-outline"> Learn More</a>
-                <div class="col d-none d-lg-block">
+                <div class="col-lg-6">
                     <img src="src/weather-app.png" alt="image of a weather app" class="img-fluid">
                 </div>
             </div>
-        </div>
 
-        <div class="row mb-5">
-            <div class="col d-none d-lg-block">
-                <img src="src/beach-huts.jpg" alt="huts" class="img-fluid">
-            </div>
-            <div class="col">
-                <div class="project-description">
-                    <h2 class="mb-5"> Beach Huts </h2>
-                    <p class="mb-5 texted-muted"> Pretty luxury lodges are set right on the beach, while the town
-                        offers
-                        a
-                        smorgasbord of
-                        local restaurants serving delicious local meals, as well as the nearby Bazaruto Marine Park
-                    </p>
+            <div class="row mb-5">
+                <div class="col d-none d-lg-block">
+                    <img src="src/beach-huts.jpg" alt="beach huts" class="img-fluid">
+                </div>
 
-                    <a href="#" class="btn btn-branding-outline"> Learn More</a>
+
+                <div class="col">
+                    <div class="project-description">
+                        <h2 class="mb-5">Beach Huts</h2>
+                        <p class="mb-5 text-muted">Pretty luxury lodges are set right on the beach, while the town
+                            offers a
+                            smorgasbord of local restaurants serving delicious local meals, as well as the nearby
+                            Bazaruto
+                            Marine Park
+                        </p>
+
+                        <a href="#" class="btn btn-branding-outline" role="button"
+                            aria-label="Learn more about Beach Huts">Learn
+                            More</a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <footer> Escape to paradise on the beach. Beach vibes and good times </footer>
+            <footer>Escape to paradise on the beach. Beach vibes and good times</footer>
 
     </body>
 
