@@ -9,7 +9,6 @@ body {
   height: 100vh;
   background: linear-gradient(90deg, #f0ddc6 50%, var(--branding-color) 50%);
   font-family: var(--heading-font-family);
-  overflow-x: hidden;
 }
 
 h1,
@@ -75,13 +74,15 @@ footer {
 }
 
 @media (max-width: 900px) {
-  body {
+  .aboutPage body {
     text-align: center;
+    padding: 80px 20px;
 
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 44px;
+    line-height: 2;
   }
 
   h2 {
