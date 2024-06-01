@@ -64,8 +64,24 @@ p,
 }
 
 .about-section {
-  color: white;
+  padding: 160px 20px;
 }
+
+.about-section h1 {
+  color: #F55301;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--heading-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+
 
 footer {
   background-color: #F470B2;
@@ -96,5 +112,10 @@ footer {
 
   .weather-app-image img {
     display: none;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
