@@ -9,6 +9,7 @@ body {
   height: 100vh;
   background: linear-gradient(90deg, #f0ddc6 50%, var(--branding-color) 50%);
   font-family: var(--heading-font-family);
+  overflow-x: hidden;
 }
 
 h1,
@@ -39,7 +40,6 @@ p,
 .hero p {
   font-size: 32px;
   font-weight: 400;
-  margin: 0;
 }
 
 .opening-paragraph {
