@@ -95,13 +95,46 @@ p,
   margin: 30px;
 }
 
+.logo {
+  max-height: 150px;
+}
 
+nav {
+  padding: 20px 0
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style:
+    none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #F470B2;
+  transition: all 100ms ease-in-out;
+}
+
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color)
+}
 
 footer {
   background-color: #F470B2;
   text-align: center;
   padding: 120px 60px;
 }
+
+
 
 @media (max-width: 900px) {
   .aboutPage body {
@@ -122,6 +155,10 @@ footer {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 
   .weather-app-image img {
