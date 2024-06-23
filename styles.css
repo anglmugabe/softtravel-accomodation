@@ -17,7 +17,6 @@ p,
 .hero p,
 footer {
   color: #F55301;
-
 }
 
 h1 {
@@ -82,20 +81,15 @@ p,
   line-height: 1.5;
   font-family: var(--heading-font-family);
   margin: 20px 0 0;
-
 }
 
 .content p {
   font-size: 14px;
 }
 
-
-
 .content {
   margin: 30px;
 }
-
-
 
 .content-container h3 {
   color: #F2912B;
@@ -110,7 +104,7 @@ p,
 }
 
 nav {
-  padding: 20px 0
+  padding: 20px 0;
 }
 
 nav ul {
@@ -120,8 +114,7 @@ nav ul {
 
 nav li {
   display: inline;
-  list-style:
-    none;
+  list-style: none;
   line-height: 42px;
   margin-left: 15px;
 }
@@ -132,25 +125,13 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
-
 nav a:hover,
 nav li.active a {
-  color: var(--branding-color)
-}
-
-.contactPage body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.contactPage footer {
-  position: sticky;
-  bottom: 0;
+  color: var(--branding-color);
 }
 
 footer .social-links p {
-  font-size: 20px
+  font-size: 20px;
 }
 
 footer .contact-box {
@@ -187,7 +168,6 @@ footer .social-links a:hover {
   .aboutPage body {
     text-align: center;
     padding: 80px 20px;
-
   }
 
   h1 {
@@ -224,4 +204,34 @@ footer .social-links a:hover {
     text-align: center;
     padding: 0;
   }
+}
+
+
+body.contactPage,
+html.contactPage {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body.contactPage .content-container {
+  flex: 1;
+}
+
+body.contactPage footer {
+  background-color: var(--secondary-color);
+  padding: 5px 0;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+body.contactPage a {
+  color: #F470b2;
+}
+
+body.contactPage h3 {
+  color: var(--branding-color);
 }
