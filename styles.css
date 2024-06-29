@@ -6,7 +6,10 @@
   --heading-font-family: "Fira Sans", sans-serif;
 }
 
-body.homePage {
+body.homePage,
+body.packages-content,
+body.aboutPage,
+body.contactPage {
   width: 100%;
   background: #f0ddc6;
   font-family: var(--heading-font-family);
@@ -63,8 +66,26 @@ p.homePage {
   padding: 15px 30px;
 }
 
-footer.homePage {
-  background-color: #F470B2;
+
+.explore-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.explore-btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+
+}
+
+footer.homePage,
+footer.aboutPage {
+  background-color: var(--tertiary-color);
   max-width: 100%;
   padding: 30px 120px;
   margin: 60px 0;
@@ -99,30 +120,28 @@ footer.homePage p.slogan {
 }
 
 
-
-
-
-
-
-
-
-
-.project-description {
-  padding: 0 30px;
+.about-content-container,
+.hero {
+  padding: 100px 20px;
 }
 
-.content-container {
-  padding: 160px 20px;
+.about-content-container {
+  font-size: 14px;
+  line-height: 1.5;
 }
 
-.content h1 {
+.about-content-container h1 {
   color: var(--highlighting-color);
-  line-height: 80px;
+  font-size: 40px;
+  font-weight: bolder;
+  line-height: 70px;
+
 }
 
 .content h2 {
   font-size: 18px;
   font-family: var(--heading-font-family);
+  color: var(--tertiary-color);
 }
 
 .content h3 {
@@ -132,21 +151,12 @@ footer.homePage p.slogan {
   margin: 20px 0 0;
 }
 
-.content p {
-  font-size: 14px;
+.opening-packages h4 {
+  color: var(--tertiary-color);
+  line-height: 1.5;
 }
 
-.content {
-  margin: 30px;
-}
 
-.content-container h3 {
-  color: #F2912B;
-}
-
-.content-container a {
-  color: #F470B2;
-}
 
 .logo {
   max-height: 150px;
